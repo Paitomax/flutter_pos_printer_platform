@@ -1,0 +1,29 @@
+name: flutter_pos_printer_example
+description: Demonstrates how to use the flutter_pos_printer_platform plugin.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_pos_printer_platform:
+    path: ../
+
+  cupertino_icons: ^1.0.6
+  dart_ping_ios: ^4.0.2
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/ic_launcher.png
